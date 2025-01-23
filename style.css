@@ -1,0 +1,92 @@
+/*estilizando a tela toda*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilizando tudo oque esta dentro do body(corpo)*/
+body {
+    background-color: #fafafa;/*cor de fundo da tela toda*/
+    width: 100vw;/*dizendo que o body terá a largura de 100% da tela (100vw)*/
+    height: 100vh;/*dizendo que o body tera a altura de 100% da tela (100vh)*/
+    display: flex;/*serve para deixar os conteudos flexiveis podendo mexer da forma que preferir, tipo, posição etc.*/
+    align-items: center;/*serve para alinhar os itens na vertical, no centro da tela(center)*/
+    justify-content: center;/*serve para alinhar os itens na horizontal */
+    font-family: sans-serif;/*tipo de fonte usada, tipo de letra usada*/
+}
+
+/*estilizando a imagem da logo*/
+.logo-insta {
+    margin-bottom: 20px;/*espaçamento embaixo da logo*/
+}
+.caixa-imagens {
+    position:relative;/*usado para posicionar os elementos dentro da caixa-imagens*/
+}
+
+/*estilizando a imagem do celular*/
+.imagem-celular {
+    width: 450px;/*largura da imagem*/
+}
+
+.imagem-insta {
+    height: 520px;/*altura da imagem*/
+    position: absolute;/*usado para posicionar os elementos de acordo com a posiçlão do elemento pai*/
+    left: 153px;/*posiciona o elemento a 153px a esquerda(left)*/
+    top: 26px;/*posiciona o elemento 26px para baixo do topo(top)*/
+}
+
+/*estilizando tudo oque esta dentro da div caixa-form*/
+.caixa-form {
+    width: 350px;/*largura da caixa-form*/
+    border: 1px solid #dbdbdb;/*borda da caixa com a largura de 1px, o tipo solid e a cor =#dbdbdb */
+    border-radius: 5px;/*serve para estilizar a borda, deixando ela arredondada*/
+    padding: 50px 40px 20px 40px;/*espaçamento entre os conteudos, espaço superior, lateral direito, embaixo, lateral esquerdo*/
+    display: flex;/*serve para deixar os conteudos flexiveis podendo mexer da forma que preferir, tipo, posição etc.*/
+    flex-direction: column;/*atraves do display: flex, podemos dizer que a direção ou posição sera em coluna(column)*/
+    background-color: #ffff;/*cor de fundo da caixa-form*/
+
+}
+
+/*como os inputs são iguais não iremos criar classes para distinguilos, faremos a estilização para ambos*/
+input {
+    height: 36px;/*altura*/
+    margin-top: 5px;/*espaçamento entre um e outro input*/
+    border: 1px solid #dbdbdb;/*borda dos inputs com a largura de 1px, o tipo solid e a cor =#dbdbdb */
+    border-radius: 5px;/*serve para estilizar a borda, deixando ela arredondada*/
+    outline: none;/*outline seria a cor de quando vc clicar no input, e dizendo que none significa sem cor */
+    padding-left: 5px;/*dando um espaçamento dentro do input porem somente no lado esquerdo(left) de 5px*/
+    color: #262626;/*cor do texto*/
+}
+
+/*estilizando o botão*/
+button {
+    background-color: #0095f6;/*cor de fundo do botão*/
+    color: #ffff;/*cor do texto*/
+    border-radius: 5px;/*serve para estilizar a borda, deixando-a arredondada*/
+    border: none;/*tirando a cor do contorno da borda*/
+    margin-top: 20px;/*espaçamento superior/em cima*/
+    height: 30px;/*altura*/
+    cursor: pointer;/*mudar a setinha para uma manzinha, quando vc passa com o cursor do mouse encima do botão*/
+}
+
+/*estilizando a classe login-facebook*/
+.login-facebook {
+    color: #385185;/*cor do texto*/
+    font-size: 15px;/*tamanho da fonte/texto*/
+    font-weight: bold;/*espessura da fonte/texto deixando-o em negrito(bold)*/
+    text-align: center;/*alinhamento do texto, so serve para textos*/
+    margin-top: 20px;/*espaçamento superior*/
+    margin-bottom: 10px;/**/
+    cursor: pointer;/*mudar a setinha para uma manzinha, quando vc passa com o cursor do mouse encima*/
+}
+
+/*estilizando a classe esqueceu-senha*/
+.esqueceu-senha {
+    color: #385185;/*cor do texto*/
+    font-size: 12px;/*tamanho da fonte/texto*/
+    text-align: center;/*alinhamento do texto, so serve para textos*/
+    cursor: pointer;/*mudar a setinha para uma manzinha, quando vc passa com o cursor do mouse encima*/
+}
+
+
